@@ -1,2 +1,3 @@
-a = 1.2
-print(float(a).is_integer())
+a=[1,2,3]
+
+print(a.index(2))
