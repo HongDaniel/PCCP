@@ -8,25 +8,30 @@ def find_intersection(line1,line2):
                 X=(B*F-E*D)/(A*D-B*C)
                 Y=(E*C-A*F)/(A*D-B*C)
                 if float(X).is_integer() and float(Y).is_integer():
-                        return X,Y
+                        return int(X),int(Y)
+                
 def solution(line):
     answer = []
     tmp=[]
-    maxX,maxY = -1001,-1001
-    minX,minY = 1001,1001
+    x_points, y_points = set(),set()
 
-    for i in range(len(line)) :
-        for j in range(i+1,len(line)):
-           
-                        maxX,maxY = max(int(X),maxX),max(int(Y),maxY)
-                        minX,minY = min(int(X),minX),min(int(Y),minY)
-
+    for line1, line2 in C(line,2):
+          intersection = find_intersection(line1,line2)
+          if intersection:
+                x,y = intersection
+                x_points.add(x)
+                y_points.add(y)
+                tmp.append([x,y])
+    maxX, maxY = max(x_points),max(y_points)
+    minX, minY = min(x_points),min(y_points)
+    
     answer = [['.'] * (maxX-minX+1) for i in range (maxY-minY+1)]
     for x,y in tmp:
         answer [y-minY][x-minX] = "*"
 
     answer = [''.join(a) for a in answer]
     answer.reverse()
+    print(answer)
     return answer
 
 solution(line)
