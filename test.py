@@ -1,2 +1,2 @@
-s = "110010101001"
-print(bin(4))
+s= "a234"
+print(s.isdigit())
