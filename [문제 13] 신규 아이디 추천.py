@@ -7,7 +7,7 @@ def solution(new_id):
     
     # step1
     answer = new_id.lower()
-    
+
     # step2
     answer = re.sub('[^a-z0-9\-_.]','',answer)
 
@@ -20,19 +20,19 @@ def solution(new_id):
     # step5
     if answer == '':
         answer = 'a'
-    
+
     #step6
-    if len(answer) >= 16:
+    if len(answer) > 15:
         answer = answer[:15]
     if answer[-1] == '.':
         answer = answer[:-1]
 
     #step7
-    if len(answer)<=2:
+    if len(answer)<3:
         addLetter = answer[-1]
-        while(len(answer)==3):
+        while(len(answer)<3):
             answer += addLetter
-
+    # print(answer)
     return answer
 
 solution(new_id)
