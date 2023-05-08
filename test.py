@@ -1,3 +1,1 @@
-from itertools import permutations as P
-
-print(list(P("15",1)))
+print(5//2)

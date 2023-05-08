@@ -32,24 +32,24 @@
 
 [재귀] ***
 [문제 16] 콜라츠 추측 - Level 1                         ----->   Solved!
-[문제 17] 하노이의 탑 - Level 3                        ----->   Solved!
-[문제 18] 모음 사전 - Level 2                       ----->   Solved!
+[문제 17] 하노이의 탑 - Level 3                         ----->   Solved!
+[문제 18] 모음 사전 - Level 2                           ----->   Solved!
 [문제 19] 호텔 방 배정 - Level 4
 
 [완전 탐색]
-[문제 20] 모의고사 - Level 1                        ----->   Solved!
-[문제 21] 카펫 - Level 2                            ----->   Solved!
-[문제 22] 소수 찾기 - Level 2                        ----->   Solved!
+[문제 20] 모의고사 - Level 1                            ----->   Solved!
+[문제 21] 카펫 - Level 2                               ----->   Solved!
+[문제 22] 소수 찾기 - Level 2                          ----->   Solved!
 [문제 23] 불량 사용자 - Level 3
-[문제 24] 수식 최대화 - Level 2
+[문제 24] 수식 최대화 - Level 2                        ----->   Solved!
 
 [기본 기준 정렬 사용하기]
-[문제 25] 두 개 뽑아서 더하기 - Level 1
-[문제 26] H-index - Level 2
+[문제 25] 두 개 뽑아서 더하기 - Level 1                 ----->   Solved!
+[문제 26] H-index - Level 2                           ----->   Solved!
 
 [직접 기준 정렬 정하기]
-[문제 27] 문자열 내 마음대로 정렬하기 - Level 1
-[문제 28] 가장 큰 수 - Level 2
+[문제 27] 문자열 내 마음대로 정렬하기 - Level 1         ----->   Solved!
+[문제 28] 가장 큰 수 - Level 2                        ----->   Solved! (다시 풀어보기)
 
 [이진 탐색]
 [문제 29] 입국심사 - Level 3
