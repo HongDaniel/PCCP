@@ -1,4 +1,3 @@
-ar = [1,3,3,5,6,7]
+num = 12
 
-ar.remove(3)
-print(ar)
+print (bin(num)[2:])
